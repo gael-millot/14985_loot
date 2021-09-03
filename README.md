@@ -82,6 +82,11 @@ Gitlab developers
 
 ## WHAT'S NEW IN
 
+### v1.1.0
+
+1) base of the nextflow script and config file
+
+
 ### v1.0.0
 
 Everything

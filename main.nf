@@ -1,22 +1,26 @@
+/*
+#########################################################################
+##                                                                     ##
+##     main.nf                                                         ##
+##                                                                     ##
+##     Gael A. Millot                                                  ##
+##     Bioinformatics and Biostatistics Hub                            ##
+##     Computational Biology Department                                ##
+##     Institut Pasteur Paris                                          ##
+##                                                                     ##
+#########################################################################
+*/
 
-out_path="/pasteur/zeus/projets/p01/BioIT/gmillot/14985_loot/results/20210720_res_CL14985_newtrim_align"
-fastq_file="/pasteur/zeus/projets/p01/BioIT/gmillot/14985_loot/B2699/00_Rawdata/Pool-B2699_S1_L001_R1_001.fastq.gz"
 
-out_path="/mnt/c/Users/Gael/Desktop/20210720_res_CL14985_newtrim_align"
-fastq_file="/mnt/y/14985_loot/B2699/00_Rawdata/Pool-B2699_S1_L001_R1_001.fastq.gz"
 
-// get the bad sequences + 3 other lines of the fastq #see https://stackoverflow.com/questions/11793942/delete-lines-before-and-after-a-match-in-bash-with-sed-or-awk
-// zcat /pasteur/homes/gmillot/14985_loot/B2699/00_Rawdata/Pool-B2699_S1_L001_R1_001.fastq.gz | awk '/^(N*)$/{for(x=NR-1;x<=NR+2;x++)d[x];}{a[NR]=$0}END{for(i=1;i<=NR;i++)if(i in d)print a[i]}' | gzip > bad.txt &
-// BEWARE: !/^(N*)$/ does not work to take the good seq, because the + line will be a good one and will print the 4 corresponding lines
+//////// Processes
 
-// get the good sequences # code given by Amaury
-
-// We create a file with the workflow version in the Results folder
+// create a file with the workflow version in out_path
 process WorkflowVersion {
     publishDir "${out_path}/", mode: 'copy'
 
     cache 'false'
-    executor 'local'
+    executor 'local' // this is the default config
 
     output:
     file "Run_info.txt"
@@ -33,6 +37,7 @@ echo "Work directory: ${workDir}" >> Run_info.txt
 //${projectDir} nextflow variable
 //${workflow.commandLine} nextflow variable
 //${workflow.manifest.version} nextflow variable
+
 
 
 process Nremove {
@@ -60,3 +65,4 @@ process Nremove {
 }
 
 
+//////// end Processes
