@@ -1,20 +1,10 @@
 [//]: # "#to make links in gitlab: example with racon https://github.com/isovic/racon"
 [//]: # "tricks in markdown: https://openclassrooms.com/fr/courses/1304236-redigez-en-markdown"
 
-| usage | R dependencies |
+| usage | dependencies |
 | --- | --- |
-| [![R Version](https://img.shields.io/badge/code-R-blue?style=plastic)](https://cran.r-project.org/mirrors.html) | [![Dependencies: R Version](https://img.shields.io/badge/R-v4.0.2-blue?style=plastic)](https://cran.r-project.org/mirrors.html) |
-| [![License: GPL-3.0](https://img.shields.io/badge/licence-GPL%20(%3E%3D3)-green?style=plastic)](https://www.gnu.org/licenses) | [![Dependencies: R Package](https://img.shields.io/badge/package-car%20v3.0.9-blue?style=plastic)](https://cran.r-project.org/web/packages/car/index.html) |
-| | [![Dependencies: R Package](https://img.shields.io/badge/package-carData%20v3.0.4-blue?style=plastic)](https://cran.r-project.org/web/packages/carData/index.html) |
-|  | [![Dependencies: R Package](https://img.shields.io/badge/package-emmeans%20v1.5.0-blue?style=plastic)](https://cran.r-project.org/web/packages/emmeans/index.html) |
-|  | [![Dependencies: R Package](https://img.shields.io/badge/package-ggplot2%20v3.3.2-blue?style=plastic)](https://github.com/tidyverse/ggplot2) |
-|  | [![Dependencies: R Package](https://img.shields.io/badge/package-jpeg%20v0.1_8.1-blue?style=plastic)](https://cran.r-project.org/web/packages/jpeg/index.html) |
-|  | [![Dependencies: R Package](https://img.shields.io/badge/package-lemon%20v0.4.5-blue?style=plastic)](https://cran.r-project.org/web/packages/lemon/index.html) |
-|  | [![Dependencies: R Package](https://img.shields.io/badge/package-lme4%20v1.1.23-blue?style=plastic)](https://cran.r-project.org/web/packages/lme4/index.html)|
-|  | [![Dependencies: R Package](https://img.shields.io/badge/package-lmerTest%20v3.1.2-blue?style=plastic)](https://cran.r-project.org/web/packages/lmerTest/index.html) |
-|  | [![Dependencies: R Package](https://img.shields.io/badge/package-lubridate%20v1.7.9-blue?style=plastic)](https://github.com/tidyverse/lubridate) |
-|  | [![Dependencies: R Package](https://img.shields.io/badge/package-Matrix%20v1.2.18-blue?style=plastic)](https://cran.r-project.org/web/packages/Matrix/index.html) |
-|  | [![Dependencies: R Package](https://img.shields.io/badge/toolbox-cute%20little%20R%20functions%20v6.0.0-blue?style=plastic)](https://gitlab.pasteur.fr/gmillot/cute_little_R_functions) |
+| [![Nextflow](https://img.shields.io/badge/code-Nextflow-blue?style=plastic)](https://www.nextflow.io/) | [![Dependencies: Nextflow Version](https://img.shields.io/badge/Nextflow-v21.04.2-blue?style=plastic)](https://github.com/nextflow-io/nextflow) |
+| [![License: GPL-3.0](https://img.shields.io/badge/licence-GPL%20(%3E%3D3)-green?style=plastic)](https://www.gnu.org/licenses) | |
 
 
 ## TABLE OF CONTENTS
@@ -75,6 +65,11 @@ Not yet published
 
 ## ACKNOWLEDGEMENTS
 
+
+Frédéric Lemoine, Hub-CBD, Institut Pasteur, Paris
+
+Bertrand Néron, Hub-CBD, Institut Pasteur, Paris
+
 The mentioned softwares and packages developers & maintainers
 
 Gitlab developers
@@ -82,14 +77,10 @@ Gitlab developers
 
 ## WHAT'S NEW IN
 
-### v1.1.0
-
-1) base of the nextflow script and config file
-
 
 ### v1.0.0
 
-Everything
+1) base of nextflow scripts and config files
 
 
 
