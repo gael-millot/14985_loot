@@ -9,6 +9,7 @@
 
 ## TABLE OF CONTENTS
 
+
    - [AIM](#aim)
    - [CONTENT](#content)
    - [HOW TO RUN](#how-to-run)
@@ -43,10 +44,12 @@
 
 ## VERSIONS
 
+
 The different releases are tagged [here](https://gitlab.pasteur.fr/gmillot/loot_14985/-/tags)
 
 
 ## LICENCE
+
 
 This package of scripts can be redistributed and/or modified under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 Distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchandability or fitness for a particular purpose.
@@ -55,10 +58,12 @@ See the GNU General Public License for more details at https://www.gnu.org/licen
 
 ## CITATION
 
+
 Not yet published
 
 
 ## CREDITS
+
 
 [Gael A. Millot](https://gitlab.pasteur.fr/gmillot), Hub-CBD, Institut Pasteur, Paris, France
 
